@@ -1,0 +1,26 @@
+{
+  "name": "PsiphonTunnel",
+  "version": "2.0.11",
+  "summary": "Psiphon tunnel iOS library",
+  "homepage": "https://psiphon3.com",
+  "authors": {
+    "Psiphon Inc": "info@psiphon.ca"
+  },
+  "license": {
+    "type": "GPL"
+  },
+  "platforms": {
+    "ios": "9.3"
+  },
+  "source": {
+    "git": "https://github.com/Psiphon-Labs/psiphon-tunnel-core-iOS-library.git",
+    "tag": "v2.0.11"
+  },
+  "source_files": "Frameworks/PsiphonTunnel.framework/Headers/*.h",
+  "ios": {
+    "vendored_frameworks": "Frameworks/PsiphonTunnel.framework"
+  },
+  "pod_target_xcconfig": {
+    "VALID_ARCHS": "arm64 armv7 x86_64"
+  }
+}

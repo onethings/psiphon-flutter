@@ -1,0 +1,1223 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 94078A06C17E946ADC1F2C06726219E5 /* Build configuration list for PBXAggregateTarget "Flutter" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = Flutter;
+		};
+		A169596E35DEFE1101D94E62D8189547 /* PsiphonTunnel-library */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 07E7DAA5DD6A1ACE07B2F39AD87F4FCC /* Build configuration list for PBXAggregateTarget "PsiphonTunnel-library" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "PsiphonTunnel-library";
+		};
+		DF2AC77B91D9800BC2BE21238BB1DBA4 /* PsiphonTunnel-framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 54FF79706D53DDAE5F96FCBDAA997B89 /* Build configuration list for PBXAggregateTarget "PsiphonTunnel-framework" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "PsiphonTunnel-framework";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		3FB568C39A7C2ED5A2912F15CB235CD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		759B4C4CD7A774815B448B79A49FD711 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7951E723E837E1879242EA6BF4D937BD /* psiphon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE77145FC96E3854847977BDBD23C998 /* psiphon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5CB0AC277C5A98673D4E7F831BE05AF /* Pods-Runner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96BF45FBE2BC9AD7B2D7E56D01B5EE46 /* Pods-Runner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C20581E051824D83C6CDEBDA2032162D /* Pods-Runner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3C932BD54DBB963102A89E0F9E3948 /* Pods-Runner-dummy.m */; };
+		CBF31FC3B3E9E8994A31EB4EDAD6DC71 /* PsiphonPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F4A18B48EE762D20C9C4080A420482 /* PsiphonPlugin.m */; };
+		E205DC92E292CB36FD2D55B5B448EC9B /* psiphon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB0C1DFC540FA9A1E70034C81305250 /* psiphon-dummy.m */; };
+		E7787108669016188DBE3C0D508C68BC /* SwiftPsiphonPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21719EBA9FAA288B8A15DED5F7F7C91E /* SwiftPsiphonPlugin.swift */; };
+		F1B36062664E92EC2FED38C380790486 /* PsiphonPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = C3265F77563531ABADDEED8C577F4135 /* PsiphonPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CD1673B4C185B9BA5732EBC58DF349E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C925B2F4D595E68703DAA3EEE0A931F1;
+			remoteInfo = psiphon;
+		};
+		B190340701ABE2C379034A092EC215FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF2AC77B91D9800BC2BE21238BB1DBA4;
+			remoteInfo = "PsiphonTunnel-framework";
+		};
+		CEDDBC54164D49952FD1651557C4D5A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+		CEF91E31A30F1CE20F48DD099EB18F2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+		F749B172AD702B421D7C67E153F58247 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF2AC77B91D9800BC2BE21238BB1DBA4;
+			remoteInfo = "PsiphonTunnel-framework";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		145489D87852EFB9E1574097ADE1F849 /* PsiphonTunnel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PsiphonTunnel.h; path = Frameworks/PsiphonTunnel.framework/Headers/PsiphonTunnel.h; sourceTree = "<group>"; };
+		1618CD0FCD7B335E33C4C4B0CE8C55BC /* psiphon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = psiphon.framework; path = psiphon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C23AC464AADA8B87610F0C8CC83C239 /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Flutter.framework; sourceTree = "<group>"; };
+		21719EBA9FAA288B8A15DED5F7F7C91E /* SwiftPsiphonPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftPsiphonPlugin.swift; path = ../../../../../../../ios/Classes/SwiftPsiphonPlugin.swift; sourceTree = "<group>"; };
+		27CF539538CEA30ADF44B625E2D342E9 /* Flutter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.release.xcconfig; sourceTree = "<group>"; };
+		317C26B9A7CEDD34ADE8F37FAAB7AC20 /* Pods-Runner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Runner-frameworks.sh"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		373E65C0E018E7A08F4E9605D3BCFF70 /* psiphon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = psiphon.modulemap; sourceTree = "<group>"; };
+		3E00E09E463FDE8BD349BDC1356CBBDF /* PsiphonTunnel-library.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "PsiphonTunnel-library.debug.xcconfig"; path = "../PsiphonTunnel-library/PsiphonTunnel-library.debug.xcconfig"; sourceTree = "<group>"; };
+		51825CD8F0558EFA53D9510F0E5BFA16 /* Pods-Runner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Runner-Info.plist"; sourceTree = "<group>"; };
+		5B4174029A155E89BB911B92A8DBAD0D /* Flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Flutter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6174374ADFCC8E6CAFD38FEB148B6A27 /* PsiphonTunnel-framework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "PsiphonTunnel-framework.debug.xcconfig"; sourceTree = "<group>"; };
+		65F4A18B48EE762D20C9C4080A420482 /* PsiphonPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PsiphonPlugin.m; path = ../../../../../../../ios/Classes/PsiphonPlugin.m; sourceTree = "<group>"; };
+		669E8F25E1897672BDB80B7EB784DA24 /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Runner.framework; path = "Pods-Runner.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B3C932BD54DBB963102A89E0F9E3948 /* Pods-Runner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Runner-dummy.m"; sourceTree = "<group>"; };
+		91C75CDF3430BD91FB75F13704C77F46 /* Flutter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.debug.xcconfig; sourceTree = "<group>"; };
+		96BF45FBE2BC9AD7B2D7E56D01B5EE46 /* Pods-Runner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Runner-umbrella.h"; sourceTree = "<group>"; };
+		988771A4F455A42E6B5B90DE8FF8B058 /* psiphon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = psiphon.debug.xcconfig; sourceTree = "<group>"; };
+		9901CF029DBAD71650E4EDA44BFFF160 /* psiphon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "psiphon-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F79F8269DC34AC56BB3D1D9652C0D86 /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
+		A321E85516BAAADF52941FC1C1AC4D14 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = Frameworks/PsiphonTunnel.framework/Headers/Reachability.h; sourceTree = "<group>"; };
+		A8D9348281BF31532C1F254EA803F367 /* psiphon.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = psiphon.podspec; path = ../../../../../../ios/psiphon.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BD03EAC61E094E153F65EF37A026C68F /* PsiphonTunnel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PsiphonTunnel.framework; path = Frameworks/PsiphonTunnel.framework; sourceTree = "<group>"; };
+		BEB0C1DFC540FA9A1E70034C81305250 /* psiphon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "psiphon-dummy.m"; sourceTree = "<group>"; };
+		C2C67745B101C11171B4C19FA30E512A /* psiphon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = psiphon.release.xcconfig; sourceTree = "<group>"; };
+		C3265F77563531ABADDEED8C577F4135 /* PsiphonPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PsiphonPlugin.h; path = ../../../../../../../ios/Classes/PsiphonPlugin.h; sourceTree = "<group>"; };
+		C6EA98402A94995D022D330B64B5203D /* Pods-Runner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Runner-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C75FA32893AE2C001945EC46A1697DC4 /* PsiphonTunnel-library.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "PsiphonTunnel-library.release.xcconfig"; path = "../PsiphonTunnel-library/PsiphonTunnel-library.release.xcconfig"; sourceTree = "<group>"; };
+		CDAECCF4B5E08124ED410F09FD5A5DF9 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
+		CE77145FC96E3854847977BDBD23C998 /* psiphon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "psiphon-umbrella.h"; sourceTree = "<group>"; };
+		D2FA70CA298C392CB8332ADEEDD1CE85 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
+		D9F2B4CB813B4BDC4D164C6E0868930A /* Pods-Runner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Runner-acknowledgements.plist"; sourceTree = "<group>"; };
+		DA3BA4FB8049C8DCE8818CCDA7A29539 /* JailbreakCheck.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JailbreakCheck.h; path = Frameworks/PsiphonTunnel.framework/Headers/JailbreakCheck.h; sourceTree = "<group>"; };
+		DCE35E8A378FA0C19638232B8BBF62DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../../../../../../LICENSE; sourceTree = "<group>"; };
+		DFD3FF1F3BA2265DF23EDBB08D00BC31 /* psiphon-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "psiphon-Info.plist"; sourceTree = "<group>"; };
+		F49C32B3B8CF59AB437BFD7314674868 /* Pods-Runner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Runner.modulemap"; sourceTree = "<group>"; };
+		F52C236D9982984B2DDA1F42A5945251 /* PsiphonTunnel-framework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "PsiphonTunnel-framework.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61547444CF6DF869A64610B212F432EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				759B4C4CD7A774815B448B79A49FD711 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C200181EFA13A5EB9503EBDDA69019A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB568C39A7C2ED5A2912F15CB235CD2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0582AC2D3D46F2D4C7895DF4AC0B95C7 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				C5DD4BF76E370F8447CA86A467C96048 /* .. */,
+			);
+			name = ..;
+			path = ../../../../../../ios;
+			sourceTree = "<group>";
+		};
+		1735D864315830E07F260B81168D7321 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				966F73BE251082823679ABD78C2F0FB0 /* .symlinks */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
+		220DF121EFAB3FD04009824BDD55CD18 /* psiphon */ = {
+			isa = PBXGroup;
+			children = (
+				0582AC2D3D46F2D4C7895DF4AC0B95C7 /* .. */,
+				E252DE9FCEAAF78B91E26DA64A8424C7 /* Pod */,
+				EF8E81884BAA839CE193422EF89CE908 /* Support Files */,
+			);
+			name = psiphon;
+			path = ../.symlinks/plugins/psiphon/ios;
+			sourceTree = "<group>";
+		};
+		2E4D453259DE59A284EB38E19ADC7625 /* psiphon */ = {
+			isa = PBXGroup;
+			children = (
+				6FA8CFFCDF944B9C79BB90F7B2919480 /* ios */,
+			);
+			name = psiphon;
+			path = psiphon;
+			sourceTree = "<group>";
+		};
+		31429C861A92189A669DCB17B4224DB3 /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				2E4D453259DE59A284EB38E19ADC7625 /* psiphon */,
+			);
+			name = plugins;
+			path = plugins;
+			sourceTree = "<group>";
+		};
+		3508DDAA6F592E3C796C135806D878FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD03EAC61E094E153F65EF37A026C68F /* PsiphonTunnel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3EEBE6100FA388073E75BFED9915DD29 /* example */ = {
+			isa = PBXGroup;
+			children = (
+				1735D864315830E07F260B81168D7321 /* ios */,
+			);
+			name = example;
+			path = example;
+			sourceTree = "<group>";
+		};
+		5451ECB8531E6F444F050924B5E5A101 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D429231BB4B1D93FFE9D1C6CE1BF4C75 /* Flutter */,
+				220DF121EFAB3FD04009824BDD55CD18 /* psiphon */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6FA8CFFCDF944B9C79BB90F7B2919480 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				AB113436B1D630CD2A5A37144A5D72AD /* Classes */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
+		70700CEB2BC16C5B462D26DADB0931A1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5B4174029A155E89BB911B92A8DBAD0D /* Flutter.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		791C6E4B424AF06279F8918FA67B8ED6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B0D67477903E1EB8D6A9F9AF51BC5CC /* Pods-Runner */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7B0D67477903E1EB8D6A9F9AF51BC5CC /* Pods-Runner */ = {
+			isa = PBXGroup;
+			children = (
+				F49C32B3B8CF59AB437BFD7314674868 /* Pods-Runner.modulemap */,
+				C6EA98402A94995D022D330B64B5203D /* Pods-Runner-acknowledgements.markdown */,
+				D9F2B4CB813B4BDC4D164C6E0868930A /* Pods-Runner-acknowledgements.plist */,
+				7B3C932BD54DBB963102A89E0F9E3948 /* Pods-Runner-dummy.m */,
+				317C26B9A7CEDD34ADE8F37FAAB7AC20 /* Pods-Runner-frameworks.sh */,
+				51825CD8F0558EFA53D9510F0E5BFA16 /* Pods-Runner-Info.plist */,
+				96BF45FBE2BC9AD7B2D7E56D01B5EE46 /* Pods-Runner-umbrella.h */,
+				CDAECCF4B5E08124ED410F09FD5A5DF9 /* Pods-Runner.debug.xcconfig */,
+				9F79F8269DC34AC56BB3D1D9652C0D86 /* Pods-Runner.profile.xcconfig */,
+				D2FA70CA298C392CB8332ADEEDD1CE85 /* Pods-Runner.release.xcconfig */,
+			);
+			name = "Pods-Runner";
+			path = "Target Support Files/Pods-Runner";
+			sourceTree = "<group>";
+		};
+		7C63B67E5191918A5481AD3FC9793AEC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				91C75CDF3430BD91FB75F13704C77F46 /* Flutter.debug.xcconfig */,
+				27CF539538CEA30ADF44B625E2D342E9 /* Flutter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/Flutter";
+			sourceTree = "<group>";
+		};
+		8083DC5E21D066688AAAB7B1297396BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C23AC464AADA8B87610F0C8CC83C239 /* Flutter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		966F73BE251082823679ABD78C2F0FB0 /* .symlinks */ = {
+			isa = PBXGroup;
+			children = (
+				31429C861A92189A669DCB17B4224DB3 /* plugins */,
+			);
+			name = .symlinks;
+			path = .symlinks;
+			sourceTree = "<group>";
+		};
+		A2526F5978DDA0891789078ABC0D96A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D72CDA665C4A270B65E90C778BB29621 /* PsiphonTunnel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB113436B1D630CD2A5A37144A5D72AD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C3265F77563531ABADDEED8C577F4135 /* PsiphonPlugin.h */,
+				65F4A18B48EE762D20C9C4080A420482 /* PsiphonPlugin.m */,
+				21719EBA9FAA288B8A15DED5F7F7C91E /* SwiftPsiphonPlugin.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C5DD4BF76E370F8447CA86A467C96048 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				3EEBE6100FA388073E75BFED9915DD29 /* example */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5451ECB8531E6F444F050924B5E5A101 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A2526F5978DDA0891789078ABC0D96A4 /* Pods */,
+				D5D640581B56FFE0F63DE33A8C94E39D /* Products */,
+				791C6E4B424AF06279F8918FA67B8ED6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D429231BB4B1D93FFE9D1C6CE1BF4C75 /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				8083DC5E21D066688AAAB7B1297396BA /* Frameworks */,
+				70700CEB2BC16C5B462D26DADB0931A1 /* Pod */,
+				7C63B67E5191918A5481AD3FC9793AEC /* Support Files */,
+			);
+			name = Flutter;
+			path = ../Flutter;
+			sourceTree = "<group>";
+		};
+		D5D640581B56FFE0F63DE33A8C94E39D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				669E8F25E1897672BDB80B7EB784DA24 /* Pods_Runner.framework */,
+				1618CD0FCD7B335E33C4C4B0CE8C55BC /* psiphon.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D72CDA665C4A270B65E90C778BB29621 /* PsiphonTunnel */ = {
+			isa = PBXGroup;
+			children = (
+				DA3BA4FB8049C8DCE8818CCDA7A29539 /* JailbreakCheck.h */,
+				145489D87852EFB9E1574097ADE1F849 /* PsiphonTunnel.h */,
+				A321E85516BAAADF52941FC1C1AC4D14 /* Reachability.h */,
+				3508DDAA6F592E3C796C135806D878FD /* Frameworks */,
+				DE9867EA7991E96882B3C5FF63CCAB45 /* Support Files */,
+			);
+			name = PsiphonTunnel;
+			path = PsiphonTunnel;
+			sourceTree = "<group>";
+		};
+		DE9867EA7991E96882B3C5FF63CCAB45 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6174374ADFCC8E6CAFD38FEB148B6A27 /* PsiphonTunnel-framework.debug.xcconfig */,
+				F52C236D9982984B2DDA1F42A5945251 /* PsiphonTunnel-framework.release.xcconfig */,
+				3E00E09E463FDE8BD349BDC1356CBBDF /* PsiphonTunnel-library.debug.xcconfig */,
+				C75FA32893AE2C001945EC46A1697DC4 /* PsiphonTunnel-library.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PsiphonTunnel-framework";
+			sourceTree = "<group>";
+		};
+		E252DE9FCEAAF78B91E26DA64A8424C7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DCE35E8A378FA0C19638232B8BBF62DE /* LICENSE */,
+				A8D9348281BF31532C1F254EA803F367 /* psiphon.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		EF8E81884BAA839CE193422EF89CE908 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				373E65C0E018E7A08F4E9605D3BCFF70 /* psiphon.modulemap */,
+				BEB0C1DFC540FA9A1E70034C81305250 /* psiphon-dummy.m */,
+				DFD3FF1F3BA2265DF23EDBB08D00BC31 /* psiphon-Info.plist */,
+				9901CF029DBAD71650E4EDA44BFFF160 /* psiphon-prefix.pch */,
+				CE77145FC96E3854847977BDBD23C998 /* psiphon-umbrella.h */,
+				988771A4F455A42E6B5B90DE8FF8B058 /* psiphon.debug.xcconfig */,
+				C2C67745B101C11171B4C19FA30E512A /* psiphon.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../../Pods/Target Support Files/psiphon";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1B692F109B9D3B6A1B5715872EC01788 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7951E723E837E1879242EA6BF4D937BD /* psiphon-umbrella.h in Headers */,
+				F1B36062664E92EC2FED38C380790486 /* PsiphonPlugin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FE2CA2DD1381BD9667F394012BB43EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5CB0AC277C5A98673D4E7F831BE05AF /* Pods-Runner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8B74B458B450D74B75744B87BD747314 /* Pods-Runner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E19A79E46A42611243A3AC6B11E59FF6 /* Build configuration list for PBXNativeTarget "Pods-Runner" */;
+			buildPhases = (
+				7FE2CA2DD1381BD9667F394012BB43EA /* Headers */,
+				205C1BAECE362C45A7529260B239BD52 /* Sources */,
+				61547444CF6DF869A64610B212F432EA /* Frameworks */,
+				791574CD4FD371A1534F6C76BA3A2191 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05C483CA076A6C35CB86AE6674CB348A /* PBXTargetDependency */,
+				A4FBB0B7A6D8F7589C703365DFBB4382 /* PBXTargetDependency */,
+				5D80FB02E4769A2D9450C14C3D204796 /* PBXTargetDependency */,
+			);
+			name = "Pods-Runner";
+			productName = "Pods-Runner";
+			productReference = 669E8F25E1897672BDB80B7EB784DA24 /* Pods_Runner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C925B2F4D595E68703DAA3EEE0A931F1 /* psiphon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6253E4CF75A41D8593712D6A47AEF659 /* Build configuration list for PBXNativeTarget "psiphon" */;
+			buildPhases = (
+				1B692F109B9D3B6A1B5715872EC01788 /* Headers */,
+				031040A8C31DDF162D1BE2DE61AEC3B4 /* Sources */,
+				C200181EFA13A5EB9503EBDDA69019A1 /* Frameworks */,
+				64165C4852EEA666EC85E60094D860F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F61AB9AA0AB0FC40FF4BE471A46F9B81 /* PBXTargetDependency */,
+				64EA3B0698FFF99CE401782D44F02C4D /* PBXTargetDependency */,
+			);
+			name = psiphon;
+			productName = psiphon;
+			productReference = 1618CD0FCD7B335E33C4C4B0CE8C55BC /* psiphon.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D5D640581B56FFE0F63DE33A8C94E39D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */,
+				8B74B458B450D74B75744B87BD747314 /* Pods-Runner */,
+				C925B2F4D595E68703DAA3EEE0A931F1 /* psiphon */,
+				DF2AC77B91D9800BC2BE21238BB1DBA4 /* PsiphonTunnel-framework */,
+				A169596E35DEFE1101D94E62D8189547 /* PsiphonTunnel-library */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64165C4852EEA666EC85E60094D860F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		791574CD4FD371A1534F6C76BA3A2191 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		031040A8C31DDF162D1BE2DE61AEC3B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E205DC92E292CB36FD2D55B5B448EC9B /* psiphon-dummy.m in Sources */,
+				CBF31FC3B3E9E8994A31EB4EDAD6DC71 /* PsiphonPlugin.m in Sources */,
+				E7787108669016188DBE3C0D508C68BC /* SwiftPsiphonPlugin.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		205C1BAECE362C45A7529260B239BD52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C20581E051824D83C6CDEBDA2032162D /* Pods-Runner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05C483CA076A6C35CB86AE6674CB348A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = CEF91E31A30F1CE20F48DD099EB18F2B /* PBXContainerItemProxy */;
+		};
+		5D80FB02E4769A2D9450C14C3D204796 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = psiphon;
+			target = C925B2F4D595E68703DAA3EEE0A931F1 /* psiphon */;
+			targetProxy = 3CD1673B4C185B9BA5732EBC58DF349E /* PBXContainerItemProxy */;
+		};
+		64EA3B0698FFF99CE401782D44F02C4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PsiphonTunnel-framework";
+			target = DF2AC77B91D9800BC2BE21238BB1DBA4 /* PsiphonTunnel-framework */;
+			targetProxy = F749B172AD702B421D7C67E153F58247 /* PBXContainerItemProxy */;
+		};
+		A4FBB0B7A6D8F7589C703365DFBB4382 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PsiphonTunnel-framework";
+			target = DF2AC77B91D9800BC2BE21238BB1DBA4 /* PsiphonTunnel-framework */;
+			targetProxy = B190340701ABE2C379034A092EC215FE /* PBXContainerItemProxy */;
+		};
+		F61AB9AA0AB0FC40FF4BE471A46F9B81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = CEDDBC54164D49952FD1651557C4D5A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14F6A69D9021FC6512E95C5FC8E026DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E00E09E463FDE8BD349BDC1356CBBDF /* PsiphonTunnel-library.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		173FF17A2A2DA7E6A0C762A474E35027 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_PROFILE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Profile;
+		};
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1976356E7AA59B27B3D2D0C2547FBF57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2C67745B101C11171B4C19FA30E512A /* psiphon.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/psiphon/psiphon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/psiphon/psiphon-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/psiphon/psiphon.modulemap";
+				PRODUCT_MODULE_NAME = psiphon;
+				PRODUCT_NAME = psiphon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		34EBB6C8C73EDF886255CA14A514FFFF /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F79F8269DC34AC56BB3D1D9652C0D86 /* Pods-Runner.profile.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-Runner/Pods-Runner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Runner/Pods-Runner.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Profile;
+		};
+		352472D9C0BF916CA06CD66D7F3465A1 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27CF539538CEA30ADF44B625E2D342E9 /* Flutter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		5936B89E447DF3475C88326055AE8CA5 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2C67745B101C11171B4C19FA30E512A /* psiphon.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/psiphon/psiphon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/psiphon/psiphon-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/psiphon/psiphon.modulemap";
+				PRODUCT_MODULE_NAME = psiphon;
+				PRODUCT_NAME = psiphon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Profile;
+		};
+		6A6E50DA39AEF559C6B60B809E065E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2FA70CA298C392CB8332ADEEDD1CE85 /* Pods-Runner.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-Runner/Pods-Runner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Runner/Pods-Runner.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71F18A0A3CFAB52B657C31144B8119B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 988771A4F455A42E6B5B90DE8FF8B058 /* psiphon.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/psiphon/psiphon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/psiphon/psiphon-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/psiphon/psiphon.modulemap";
+				PRODUCT_MODULE_NAME = psiphon;
+				PRODUCT_NAME = psiphon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		85D0D9DFC156DB6FAF40897004594038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6174374ADFCC8E6CAFD38FEB148B6A27 /* PsiphonTunnel-framework.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98F020EF25BC336D2CE179BC02BB6891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDAECCF4B5E08124ED410F09FD5A5DF9 /* Pods-Runner.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-Runner/Pods-Runner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Runner/Pods-Runner.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9EE29D15BDF1F4D3D3B946C28145C615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C75FA32893AE2C001945EC46A1697DC4 /* PsiphonTunnel-library.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A61138F34FDEA196B7E17C45338192EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27CF539538CEA30ADF44B625E2D342E9 /* Flutter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BBD31CCCB9417E33F4EB826AD00340D9 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C75FA32893AE2C001945EC46A1697DC4 /* PsiphonTunnel-library.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		C2B0A4F7B4F5592828D38773A1A446C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F52C236D9982984B2DDA1F42A5945251 /* PsiphonTunnel-framework.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2CE01CB64D346E8891F71CA3FAEB9ED /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F52C236D9982984B2DDA1F42A5945251 /* PsiphonTunnel-framework.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		D865F451DBED2657D8C1644047E1D987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91C75CDF3430BD91FB75F13704C77F46 /* Flutter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07E7DAA5DD6A1ACE07B2F39AD87F4FCC /* Build configuration list for PBXAggregateTarget "PsiphonTunnel-library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F6A69D9021FC6512E95C5FC8E026DA /* Debug */,
+				BBD31CCCB9417E33F4EB826AD00340D9 /* Profile */,
+				9EE29D15BDF1F4D3D3B946C28145C615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				173FF17A2A2DA7E6A0C762A474E35027 /* Profile */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54FF79706D53DDAE5F96FCBDAA997B89 /* Build configuration list for PBXAggregateTarget "PsiphonTunnel-framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85D0D9DFC156DB6FAF40897004594038 /* Debug */,
+				D2CE01CB64D346E8891F71CA3FAEB9ED /* Profile */,
+				C2B0A4F7B4F5592828D38773A1A446C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6253E4CF75A41D8593712D6A47AEF659 /* Build configuration list for PBXNativeTarget "psiphon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71F18A0A3CFAB52B657C31144B8119B2 /* Debug */,
+				5936B89E447DF3475C88326055AE8CA5 /* Profile */,
+				1976356E7AA59B27B3D2D0C2547FBF57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94078A06C17E946ADC1F2C06726219E5 /* Build configuration list for PBXAggregateTarget "Flutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D865F451DBED2657D8C1644047E1D987 /* Debug */,
+				352472D9C0BF916CA06CD66D7F3465A1 /* Profile */,
+				A61138F34FDEA196B7E17C45338192EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E19A79E46A42611243A3AC6B11E59FF6 /* Build configuration list for PBXNativeTarget "Pods-Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98F020EF25BC336D2CE179BC02BB6891 /* Debug */,
+				34EBB6C8C73EDF886255CA14A514FFFF /* Profile */,
+				6A6E50DA39AEF559C6B60B809E065E3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

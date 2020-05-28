@@ -1,0 +1,6 @@
+framework module psiphon {
+  umbrella header "psiphon-umbrella.h"
+
+  export *
+  module * { export * }
+}

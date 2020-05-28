@@ -1,0 +1,33 @@
+PODS:
+  - Flutter (1.0.0)
+  - psiphon (0.0.1):
+    - Flutter
+    - PsiphonTunnel
+  - PsiphonTunnel (2.0.11)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - psiphon (from `.symlinks/plugins/psiphon/ios`)
+  - PsiphonTunnel (from `https://github.com/Psiphon-Labs/psiphon-tunnel-core-iOS-library.git`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  psiphon:
+    :path: ".symlinks/plugins/psiphon/ios"
+  PsiphonTunnel:
+    :git: https://github.com/Psiphon-Labs/psiphon-tunnel-core-iOS-library.git
+
+CHECKOUT OPTIONS:
+  PsiphonTunnel:
+    :commit: 41b5cbfe6e372feb43e267ceac26294d34e11576
+    :git: https://github.com/Psiphon-Labs/psiphon-tunnel-core-iOS-library.git
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  psiphon: 236bdd8a201e32e4421781890b4241d87e3878c8
+  PsiphonTunnel: e242625aac5b9f3fa6130fd093c52762975eb0a8
+
+PODFILE CHECKSUM: 8095bd630e3e02f71b3b0246fd1ab50a5b40b06e
+
+COCOAPODS: 1.9.1
